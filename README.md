@@ -7,7 +7,7 @@ Autonomous AI agent swarm orchestrator - the embodiment of thinking machines.
 
 # Initialize source code project
 
-Initialize this source code project with the artifacts to direct an AI coding agent to contribute. Ensure that these artifacts are maximally portable across AI coding agents including Cline, Claude Code, Codex, and kilocode. Expect that skills will be added. Choose the programming language and supply chain ecosystem that is most well suited to this project. Provide a document for contributor on-boarding that provides steps to initialize a freshly installed VS Code with the necessary extensions to be productive in that programming language and ecosystem.
+Initialize this source code project with the artifacts to direct an AI coding agent to contribute. Ensure that these artifacts are maximally portable across AI coding agents including Cline, Claude Code, Codex, and kilocode. Expect that skills will be added. Choose the programming language and supply chain ecosystem that is most well suited to this project.
 
 # Initialize specifications of intent for openmog
 
@@ -22,6 +22,7 @@ openmog will bootstrap this source code project to implement a complete autonomo
 The initial set of requirements are as follows.
 
 - This agent will need to understand the purpose that is configured. In the abstract, this agent will serve to perform work as a colleague on a team.
+- This agent shall honor configurable service  and resource limits, such as maximum number of running subagents, cpu, memory, and storage utilization.
 - This agent will have durable memory of specifications of intent, plans accomplished, current tasks, and planned tasks not yet started.
 - This agent will will continuously improve by decomposing its purpose into specifications incrementally refined with finer grained detail at each iteration.
 - This agent will do planning strategically and tactically to translate the intent into tasks that have sequencing constraints because pre-conditions that must be satisfied by a prior task, such as inputs depending on outputs or side-effects (post-conditions).
@@ -32,8 +33,16 @@ The initial set of requirements are as follows.
 - This agent will act by applying skills, invoking tools, calling MCP servers, and retrieving information from data sources.
 - This agent will be capable of self-improvement. This includes learning new skills, integrating additional tools, MCP servers, and data sources, as authorized by the owner of the deployment.
 - This agent will communicate with other agents and collaborators using each participant's preferred channels, including options for JIRA, Slack, and email.
-- This agent will complete a task, when all of the work is done successfully, and the post-conditions are met.
+- This agent will complete a task, when all of the work requested of the task is done successfully and the post-conditions are met.
 
 # Initialize the self-improving development of openmog
 
-openmog will be used to instantiate at least one deployment of itself for the purpose of developing improvements to its own capabilities through code changes to this source code project working in collaboration with other deployment instances of openmog or with human contributors.
+Deploy the first instance of openmog for the purpose of developing improvements to the openmog project's own capabilities through code changes to this source code project working in collaboration with other deployment instances of openmog or with human contributors.
+
+# On-board developers
+
+Draft a document for contributor on-boarding that provides steps to initialize a freshly installed VS Code with the necessary extensions to be productive in that programming language and ecosystem.
+
+# On-board users
+
+Draft a document for user on-boarding that provides steps to deploy an instance of openmog and configure it for some user-defined purpose.
