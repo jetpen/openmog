@@ -3,11 +3,72 @@ Autonomous AI agent swarm orchestrator - the embodiment of thinking machines.
 
 "The terrible war against thinking machines was the genesis of our political-commercial universe." -Princess Irulan on p.9 Dune: The Butlerian Jihad: Book One of the Legends of Dune Trilogy by Brian Herbert, Kevin J. Anderson
 
+# Installation
+
+## Prerequisites
+
+- Python 3.9 or higher
+- pip (Python package installer)
+- git
+
+## Quick Start
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jetpen/openmog.git
+   cd openmog
+   ```
+
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. Install OpenMog:
+   ```bash
+   pip install -e ".[dev]"
+   ```
+
+4. Verify installation:
+   ```bash
+   openmog --help
+   ```
+
+## Development Setup
+
+For contributors and developers:
+
+```bash
+# Install with all development dependencies
+pip install -e ".[dev]"
+
+# Run tests
+make test
+
+# Run linting
+make lint
+
+# Format code
+make format
+
+# Build documentation
+make docs
+```
+
 # Bootstrap
 
 # Initialize source code project
 
 Initialize this source code project with the artifacts to direct an AI coding agent to contribute. Ensure that these artifacts are maximally portable across AI coding agents including Cline, Claude Code, Codex, and kilocode. Expect that skills will be added. Choose the programming language and supply chain ecosystem that is most well suited to this project.
+
+**Result**
+
+70.9k tokens later... Cline with grok-code-fast-1 did none of what I asked for. It fleshed out a skeletal do-nothing Python source code project with github-related artifacts. It generated zero AI coding agent related artifacts that I expected. I will keep it as a starting point, but I'm not happy about it.
+
+I will have to create .clinerules by hand to get Cline started. I was hoping it would have generated an AGENTS.md that is suitable for all AI coding agents. Instead, I will proceed with Cline's `initialize memory bank` prompt.
+
+126.2k tokens later... memory-bank is initialized.
 
 # Initialize specifications of intent for openmog
 
