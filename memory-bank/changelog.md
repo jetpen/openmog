@@ -57,11 +57,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Memory System**: Persistent storage abstraction not yet implemented (planned for v0.2.0)
 
 ### Next Steps
-- **v0.2.0**: Core architecture implementation (agent orchestrator, configuration system, skill registry)
-- **v0.3.0**: Planning and execution engine with basic task orchestration
-- **v0.4.0**: Human integration and collaboration workflows
-- **v0.5.0**: Self-improvement and skill learning capabilities
-- **v1.0.0**: Production-ready agent swarm orchestrator
+- **v0.2.0**: Core architecture implementation (agent orchestrator, configuration system, skill registry) using TDD
+- **v0.3.0**: Planning and execution engine with basic task orchestration using TDD
+- **v0.4.0**: Human integration and collaboration workflows using TDD
+- **v0.5.0**: Self-improvement and skill learning capabilities using TDD
+- **v1.0.0**: Production-ready agent swarm orchestrator using TDD
+
+## [0.1.1] - 2026-02-25
+
+### Added
+- **Test-Driven Development (TDD)**: Fully documented TDD workflow (Red-Green-Refactor) as standard development practice
+
+### Changed
+- **systemPatterns.md**: Added TDD as a core development pattern alongside Observer, Strategy, etc.
+- **techContext.md**: Integrated TDD into Testing Strategy as primary process
+- **activeContext.md**: Expanded Testing Philosophy with detailed TDD cycle description
+- **progress.md**: Prefixed all Phase 1 tasks with TDD requirement; added TDD adherence to success criteria
+
+### Documentation
+- Memory bank now comprehensively reflects TDD adoption for upcoming core implementation phases
+- Ensures robust, testable codebase from Phase 1 onward
 
 ---
 

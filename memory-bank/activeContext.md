@@ -59,10 +59,13 @@ We are currently in the bootstrap phase of OpenMog development, having just comp
 - **Absolute Imports**: Consistent import structure across the codebase
 
 ### **Testing Philosophy**
-- **Test-Driven Development**: Write tests before implementation where possible
-- **Comprehensive Coverage**: >90% target with meaningful test scenarios
-- **Integration Focus**: End-to-end testing for critical user journeys
-- **Property-Based Testing**: Where applicable for complex business logic
+- **Test-Driven Development (TDD)**: Primary development approach using the Red-Green-Refactor cycle:
+  - **Red Phase**: Write a failing test that precisely defines the desired behavior
+  - **Green Phase**: Write the simplest code possible to make the test pass
+  - **Refactor Phase**: Improve code design, structure, and performance while keeping all tests green
+- **Comprehensive Coverage**: >90% target with meaningful, focused test scenarios
+- **Integration Focus**: End-to-end testing for critical user journeys and agent workflows
+- **Property-Based Testing**: Applied where beneficial for complex algorithms and edge cases
 
 ### **Error Handling Approach**
 - **Custom Exceptions**: Domain-specific error types with clear hierarchies

@@ -30,11 +30,11 @@
 ## What's Left to Build
 
 ### **Phase 1: Core Architecture (0% Complete)**
-- ⏳ **Agent Orchestrator**: Central coordination component for agent swarm management
-- ⏳ **Configuration System**: Pydantic models and loaders for YAML/JSON configuration files
-- ⏳ **Skill Registry**: Plugin system for dynamic skill loading and management
-- ⏳ **Memory System**: Persistent storage abstraction for agent state and plans
-- ⏳ **Basic CLI Commands**: `openmog run` and `openmog init` functionality
+- ⏳ **TDD: Agent Orchestrator**: Central coordination component for agent swarm management
+- ⏳ **TDD: Configuration System**: Pydantic models and loaders for YAML/JSON configuration files
+- ⏳ **TDD: Skill Registry**: Plugin system for dynamic skill loading and management
+- ⏳ **TDD: Memory System**: Persistent storage abstraction for agent state and plans
+- ⏳ **TDD: Basic CLI Commands**: `openmog run` and `openmog init` functionality
 
 ### **Phase 2: Planning & Execution (0% Complete)**
 - ⏳ **Task Planning Engine**: Strategic and tactical planning with dependency management
@@ -167,6 +167,7 @@ Dependencies: None (can begin immediately)
 - [ ] Memory system can persist and retrieve state
 - [ ] CLI can run agents with configuration files
 - [ ] All components have >90% test coverage
+- [ ] TDD (Red-Green-Refactor) workflow followed for all Phase 1 components
 - [ ] Documentation covers all public APIs
 - [ ] CI pipeline passes for all Python versions
 

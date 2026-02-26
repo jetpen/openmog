@@ -193,6 +193,7 @@ docs/
 - **Access Control**: Configurable authorization for agent actions
 - **Audit Logging**: Complete record of all agent activities
 - **Secure Communication**: Encrypted channels for sensitive operations
+- **Secure Secrets**: Encrypted storage (vault) for secrets
 
 ### **Scalability Requirements**
 - **Horizontal Scaling**: Multiple agent instances coordination
@@ -235,6 +236,7 @@ docs/
 - **Imports**: Absolute imports, organized by standard library, third-party, local
 
 ### **Testing Strategy**
+- **Test-Driven Development (TDD)**: Follow Red-Green-Refactor cycle as the primary development process for all new features and components
 - **Unit Tests**: Isolated component testing with mocks
 - **Integration Tests**: Component interaction verification
 - **End-to-End Tests**: Complete workflow validation

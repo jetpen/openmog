@@ -111,6 +111,12 @@ Task Execution → Performance Analysis → Pattern Recognition → Skill Acquis
 - **Implementation**: Memory adapters for different storage backends
 - **Benefits**: Storage technology independence, consistent API, testing flexibility
 
+### **Test-Driven Development (TDD) - Development Workflow**
+- **Context**: Iterative development ensuring robust, well-tested code from the outset
+- **Red Phase**: Write a failing test that defines the desired new behavior
+- **Green Phase**: Implement the minimal production code necessary to pass the test
+- **Refactor Phase**: Clean up and improve the code while ensuring all tests remain green
+- **Benefits**: Drives design through requirements, guarantees test coverage, provides regression protection, facilitates refactoring
 ## Component Relationships
 
 ### **Orchestrator ↔ Agents**

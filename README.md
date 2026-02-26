@@ -70,6 +70,10 @@ I will have to create .clinerules by hand to get Cline started. I was hoping it 
 
 126.2k tokens later... memory-bank is initialized.
 
+Use grok-4-1-fast-reasoning to retry:
+
+Create the artifacts to direct an AI coding agent to contribute. Ensure that these artifacts are maximally portable across AI coding agents including Cline, Claude Code, Codex, and kilocode. Expect that skills will be added.
+
 # Initialize specifications of intent for openmog
 
 openmog will be directed by configuration files that control:
