@@ -74,6 +74,8 @@ Use grok-4-1-fast-reasoning to retry:
 
 Create the artifacts to direct an AI coding agent to contribute. Ensure that these artifacts are maximally portable across AI coding agents including Cline, Claude Code, Codex, and kilocode. Expect that skills will be added.
 
+GPT 5.2 was able to understand the intent and produce the AGENTS.md and rules.md.
+
 # Initialize specifications of intent for openmog
 
 openmog will be directed by configuration files that control:
