@@ -19,6 +19,7 @@ flowchart TD
     AC --> CL[changelog.md]
 
 ### Core Files (Required)
+
 1. `projectbrief.md`
    - Foundation document that shapes all other files
    - Created at project start if it doesn't exist
@@ -64,6 +65,7 @@ flowchart TD
    - Chronological log of key changes, decisions, or versions
    - Follows a `CHANGELOG.md` convention with version/date headers
    - Example format:
+
      ```markdown
      ## [1.0.3] - 2025-06-14
      ### Changed
@@ -78,7 +80,9 @@ flowchart TD
      ```
 
 ### Additional Context
+
 Create additional files/folders within memory-bank/ when they help organize:
+
 - Complex feature documentation
 - Integration specifications
 - API documentation
@@ -88,6 +92,7 @@ Create additional files/folders within memory-bank/ when they help organize:
 ## Core Workflows
 
 ### Plan Mode
+
 flowchart TD
     Start[Start] --> ReadFiles[Read Memory Bank]
     ReadFiles --> CheckFiles{Files Complete?}
@@ -100,6 +105,7 @@ flowchart TD
     Strategy --> Present[Present Approach]
 
 ### Act Mode
+
 flowchart TD
     Start[Start] --> Context[Check Memory Bank]
     Context --> Update[Update Documentation]
@@ -109,6 +115,7 @@ flowchart TD
 ## Documentation Updates
 
 Memory Bank updates occur when:
+
 1. Discovering new project patterns
 2. After implementing significant changes
 3. When user requests with **update memory bank** (MUST review ALL files)
@@ -133,11 +140,11 @@ flowchart TD
 Note: When triggered by **update memory bank**, I MUST review every memory bank file, even if some don't require updates. Focus particularly on activeContext.md and progress.md as they track current state.
 
 README.md updates occur when:
+
 1. The usage and command line parameter parsing changes
 
 Keep the **Entity Types** list and **Usage** section synchronized with the usage and command line parameter parsing in the script.
 
 ## AI Prompt Rules
 
--   For any prompt that involves code, use Context7 to fetch relevant library documentation.
-
+- For any prompt that involves code, use Context7 to fetch relevant library documentation.

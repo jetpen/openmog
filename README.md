@@ -1,41 +1,46 @@
 # openmog
+
 Autonomous AI agent swarm orchestrator - the embodiment of thinking machines.
 
 "The terrible war against thinking machines was the genesis of our political-commercial universe." -Princess Irulan on p.9 Dune: The Butlerian Jihad: Book One of the Legends of Dune Trilogy by Brian Herbert, Kevin J. Anderson
 
-# Installation
+## Installation
 
-## Prerequisites
+### Prerequisites
 
 - Python 3.9 or higher
 - pip (Python package installer)
 - git
 
-## Quick Start
+### Quick Start
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/jetpen/openmog.git
    cd openmog
    ```
 
 2. Create a virtual environment:
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. Install OpenMog:
+
    ```bash
    pip install -e ".[dev]"
    ```
 
 4. Verify installation:
+
    ```bash
    openmog --help
    ```
 
-## Development Setup
+### Development Setup
 
 For contributors and developers:
 
@@ -56,13 +61,13 @@ make format
 make docs
 ```
 
-# Bootstrap
+## Bootstrap
 
-# Initialize source code project
+## Initialize source code project
 
 Initialize this source code project with the artifacts to direct an AI coding agent to contribute. Ensure that these artifacts are maximally portable across AI coding agents including Cline, Claude Code, Codex, and kilocode. Expect that skills will be added. Choose the programming language and supply chain ecosystem that is most well suited to this project.
 
-**Result**
+### Result
 
 70.9k tokens later... Cline with grok-code-fast-1 did none of what I asked for. It fleshed out a skeletal do-nothing Python source code project with github-related artifacts. It generated zero AI coding agent related artifacts that I expected. I will keep it as a starting point, but I'm not happy about it.
 
@@ -76,9 +81,10 @@ Create the artifacts to direct an AI coding agent to contribute. Ensure that the
 
 GPT 5.2 was able to understand the intent and produce the AGENTS.md and rules.md.
 
-# Initialize specifications of intent for openmog
+## Initialize specifications of intent for openmog
 
 openmog will be directed by configuration files that control:
+
 - **purpose**: specifies what this openmog instance is intended to accomplish as its on-going concern
 - **authorizations**: specifies authorizations (access that requires review and approval (and by whom), or access that is auto-approved) and access control
 - **contacts**: specifies addresses for collaborators to communicate for delegating tasks for review, approval, and requesting assistance
@@ -102,14 +108,14 @@ The initial set of requirements are as follows.
 - This agent will communicate with other agents and collaborators using each participant's preferred channels, including options for JIRA, Slack, and email.
 - This agent will complete a task, when all of the work requested of the task is done successfully and the post-conditions are met.
 
-# Initialize the self-improving development of openmog
+## Initialize the self-improving development of openmog
 
 Deploy the first instance of openmog for the purpose of developing improvements to the openmog project's own capabilities through code changes to this source code project working in collaboration with other deployment instances of openmog or with human contributors.
 
-# On-board developers
+## On-board developers
 
 Draft a document for contributor on-boarding that provides steps to initialize a freshly installed VS Code with the necessary extensions to be productive in that programming language and ecosystem.
 
-# On-board users
+## On-board users
 
 Draft a document for user on-boarding that provides steps to deploy an instance of openmog and configure it for some user-defined purpose.
